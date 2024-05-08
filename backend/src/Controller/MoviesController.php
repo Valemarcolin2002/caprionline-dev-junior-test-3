@@ -23,4 +23,5 @@ class MoviesController extends AbstractController
 
         return new JsonResponse($data, json: true);
     }
+    
 }
